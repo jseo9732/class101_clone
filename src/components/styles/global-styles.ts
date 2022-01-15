@@ -4,11 +4,6 @@ import { normalize } from 'styled-normalize';
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
 
-  html,
-  body {
-    overflow: hidden;
-  }
-
   * {
     margin: 0;
     padding: 0;
@@ -31,6 +26,12 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Pretendard-B';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
   }
   @font-face {
