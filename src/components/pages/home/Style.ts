@@ -14,6 +14,7 @@ export const SwiperContainer = styled.div`
   overflow: hidden;
   z-index: 1;
   margin-top: 24px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: repeat(10, 1fr);
 `;

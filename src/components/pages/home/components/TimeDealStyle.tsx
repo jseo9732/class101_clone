@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const SwiperSlide = styled.div`
-  margin-right: 24px;
   width: 276px;
   display: flex;
   flex-direction: column;
