@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/class101_clone/static/js/main.d141db33.js",
+    "main.js": "/class101_clone/static/js/main.affbb1ce.js",
     "index.html": "/class101_clone/index.html",
-    "main.d141db33.js.map": "/class101_clone/static/js/main.d141db33.js.map"
+    "main.affbb1ce.js.map": "/class101_clone/static/js/main.affbb1ce.js.map"
   },
   "entrypoints": [
-    "static/js/main.d141db33.js"
+    "static/js/main.affbb1ce.js"
   ]
 }
