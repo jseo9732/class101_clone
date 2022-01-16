@@ -2,6 +2,8 @@ import React from 'react';
 import * as style from 'components/pages/home/Style';
 import TimeDealData from 'components/pages/home/data/timeDeal.json';
 import TimeDeal from 'components/pages/home/components/TimeDeal';
+import MDRcmdData from 'components/pages/home/data/mdRecommend.json';
+import MDRcmd from './components/MDRcmd';
 import SectionHeader from './components/SectionHeader';
 import { Icon } from '@class101/ui';
 
@@ -27,7 +29,19 @@ export default function Home() {
 
       <style.OriginalInitialRenderingSections>
         <SectionHeader path="" title="MD 추천 클래스" />
-        <style.SwiperBox>잠시</style.SwiperBox>
+        <style.SwiperContainer>
+          <style.SwipeBtnL onClick={slide_L}>
+            <Icon.ChevronLeft size={24} />
+          </style.SwipeBtnL>
+          <style.SwiperBox id="swiper">
+            {MDRcmdData.md_recommend.map((data) => (
+              <MDRcmd key={data.id} data={data} />
+            ))}
+          </style.SwiperBox>
+          <style.SwipeBtnR onClick={slide_R}>
+            <Icon.ChevronRight size={24} />
+          </style.SwipeBtnR>
+        </style.SwiperContainer>
       </style.OriginalInitialRenderingSections>
 
       <style.OriginalInitialRenderingSections>
