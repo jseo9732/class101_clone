@@ -6,7 +6,7 @@ import Home from 'components/pages/home/Home';
 export default function AppRouter() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/class101_clone/">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
