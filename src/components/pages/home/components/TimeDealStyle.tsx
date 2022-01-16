@@ -100,7 +100,7 @@ export const classTitle = styled.div`
   line-height: 20px;
   letter-spacing: 0.3px;
   color: rgb(26, 26, 26);
-  max-  height: 40px;
+  height: 40px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;

@@ -58,7 +58,7 @@ export default function TimeDeal({ data }: IProps) {
           </style.CountBox>
           <style.CountBox>
             <Icon.Like size={9} fillColor={Colors.gray400} />
-            <style.CountText>{thumsUp}</style.CountText>
+            <style.CountText>{thumsUp}%</style.CountText>
           </style.CountBox>
         </style.CountContainer>
         <style.Spacing></style.Spacing>
