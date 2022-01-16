@@ -84,6 +84,9 @@ export const AuthNavContainer = styled.div`
   display: flex;
   margin-left: auto;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const AuthNav = styled(Link)<{ margin_right?: string }>`
